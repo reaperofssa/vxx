@@ -1,0 +1,431 @@
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.main-width{
+    width: 1400px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: radial-gradient(white,30%, black);
+    position: relative;
+}
+.hero header .logo h2 a{
+    display: block;
+    font-size: 32px;
+     font-weight: 600;
+     text-decoration: none;
+     color: white;
+}
+.hero header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 40px 0 30px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: 1s;
+}
+nav ul li:not(:last-child) a:hover,
+nav ul li:not(:last-child) a:focus{
+    border-bottom: 2px solid white;
+}
+nav ul li.active a{
+    border-bottom: 2px solid white;
+}
+nav ul li.btn a{
+    background: transparent;
+    color: white;
+    border: 1px solid #f5dca8;
+    padding: 9px 20px;
+    border-radius: 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 150px;
+}
+nav ul li.btn:hover a{
+    border: 1px solid white;
+    color: black;
+    background: white;
+    transition: 1s;
+}
+.content{
+    padding-top: 100px;
+}
+.content .main-text{
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+.content .main-text h6{
+    font-size: 14xp;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 40px;
+}
+.content .main-text h1{
+    font-size: 100px;
+    line-height: 1;
+    color: white;
+    margin: 0px 0px 45px;
+    font-family: 'permanent maker', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.content .main-text h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.content .main-text p{
+    max-width: 100%;
+    width: 480px;
+    color: white;
+    line-height: 1.8;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.content .main-text a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background: white;
+    border: 1px solid white;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.content .main-text a:hover{
+    transform: scale(1.2);
+    border: 1px solid #f5dca8;
+    background: transparent;
+    color: white;
+    transition: 1s;
+}
+.image{
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+}
+.image img{
+    height: 100%;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+.logo-section h3{
+    width: 250px;
+    font-size: 2rem;
+    color: black;
+    margin-left: 10px;
+}
+.logo-section .fas{
+    font-size: 6rem;
+    color: black;
+}
+/* logo section ends here */
+.section-1-wrapper{
+    width: 70%;
+    margin: auto;
+}
+.section-1 h2{
+    font-size: 1.5rem;
+    color: #fec53a;
+    font-weight: 450;
+}
+.section-1-img{
+    display: flex;
+}
+.section-1-img .img{
+    width: 100px;
+    height: 130px;
+    background: url(../images/download\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.section-1-img .img-2{
+    background: url(../images/download\ \(3\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-3{
+    background: url(../images/download\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-4{
+    background: url(../images/download\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-5{
+    background: url(../images/dff.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-6{
+    background: url(../images/ninja-kamui-oni-mask-joe-higan-4k-wallpaper-uhdpaper.com-256@1@o.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img:hover{
+    transform: translateY(-10px);
+}
+/* section one ends here */
+.game-categories{
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+.game-categories h1{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #fec53a;
+}
+.game-wrapper{
+    display: flex;
+}
+.gw{
+    width: 120px;
+    height: 120px;
+    background: url(../images/download.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px 15px 0 0;
+    border-radius: 10px;
+}
+.gw:hover{
+    transform: translateY(-20px);
+}
+.left{
+    position: relative;
+    right: -140px;
+}
+
+
+.gw-1{
+    background: url(../images/uto.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-2{
+    background: url(../images/nar.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-3{
+    background: url(../images/pepp.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-4{
+    background: url(../images/pap.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-5{
+    background: url(../images/coddd.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-6{
+    background: url(../images/c.jpg);
+    background-size: cover;
+    background-position: center;
+}.gw-7{
+    background: url(../images/ffr.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-8{
+    background: url(../images/ggg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-9{
+    background: url(../images/dod.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* section 1.1 ends here*/
+
+.section-2{
+  width: 100%;
+  height: 50vh;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/pepp.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section-2 h1{
+    font-size: 2rem;
+    color: #fff;
+}
+.players{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p-image{
+    width: 200px;
+    height: 200px;
+    background: url(../images/coddd.jpg);
+    border-radius: 50%;
+    position: relative;
+}
+.p-image::after{
+   content: 'VS';
+   position: absolute;
+   right: -70px;
+   bottom: 0;
+   font-size: 2rem;
+   color: #fec53a;
+}
+.players span{
+    font-size: 1.5rem;
+    color: #fec53a;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.stars{
+    color: #fec53a;
+}
+.p-image-2{
+    background: url(../images/download\ \(3\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* section 3 starts here*/
+
+.section-3{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/download\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.section-3 h1{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+.section-3-wrapper{
+ display: flex;
+ min-height: 70vh;
+ align-items: center;
+ justify-content: center;
+}
+.feedback{
+    width: 250px;
+    height: 300px;
+    background: url(images/Screenshot_20250607-181059.png);
+    background-size: cover;
+    background-position: center;
+}
+.feedback-desc{
+    width: 300px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.767);
+    padding: 10px;
+    color: #fff;
+    margin-right: 10px;
+}
+.feedback-desc.far{
+ color: #fec53a;
+ font-size: 30px;
+}
+.f-image-2{
+    background: url(images/Screenshot_20250607-181036.png);
+    background-size: cover;
+    background-position: center;
+}
+/* section 3 ends here*/
+footer{
+    width: 100%;
+    height: 55vh;
+    background: #282828;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.footer-body{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo{
+    height: 12vh;
+    color: #000;
+    line-height: 1.7rem;
+}
+
+
+ul h3{
+    color: #fff;
+    font-weight: 450;
+}
+ul li{
+    list-style: none;
+    line-height: 2.5rem;
+}
+ul li a .fab{
+    font-size: 1.2rem;
+    color: #fec53a;
+    margin-right: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li a:hover{
+    color: #fec53a;
+}
+.footer-bottom{
+    width: 100%;
+    height: 7vh;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.875rem;
+}
+.footer-bottom span{
+    color: #fec53a;
+    font-weight: bold;
+    
+}
