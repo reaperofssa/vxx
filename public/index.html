@@ -3,123 +3,351 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>triple o pastries </title>
-        <link rel="stylesheet" href="tripleo.css"/>
+    <title>Triple O Delight Cakes - Premium Custom Cakes & Pastries</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <!-- Navigation -->
     
-<section class="hero">
-<div class="main-width">
-    <header>
-
-<script>
-var canvas = document.getElementById("myCanvas");
-var ctx=canvas.getContext("2d");
-ctx.font="30px Comic Sans MS";
-ctx.fillStyle = "red";
-ctx.textAlign = "midle";
-ctx.fillText("TRIPLE O DELIGHT CAKE", canvas.width/4, canvas.height/2);
-</script>
-        <div class="logo">
-       <h2><a href="#"></a>
-    </h2>
-        </div>
-        <nav>
-            <ul>
-                <li class="active"><a href="aboutus.html">ABOUT US</a ></li>
-                <li><a href="#">REVIEW</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">CONTACT US</a></li>
-            
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-birthday-cake"></i>
+                <span>Triple O Delight</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#cakes" class="nav-link">Our Cakes</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="https://wa.me/2348064069133" class="nav-link order-btn">Order Now</a></li>
             </ul>
-        </nav>
-    </header>
-
-     <div class="content">
-        <div class="main-text">
-            <marquee behavior="" direction="left">CUSTOMER SATISFACTION IS OUR NUMBER ONE PIORITY</marquee>
-        <h6>#1 Trending</h6>
-       <h1>TRIPPLE O DELIGHTCAKE</h1>
-        <p>START SHOPPING WITH THE E </p>
-           <a href="https://wa.link/1fhbe1">contact us</a>
-             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
+    </nav>
 
-        <div class="social">
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Delicious Custom Cakes Made with Love</h1>
+                <p>Creating sweet memories with our premium handcrafted cakes and pastries. Every bite tells a story of passion and perfection.</p>
+                <div class="hero-buttons">
+                    <a href="#cakes" class="btn btn-primary">View Our Cakes</a>
+                    <a href="https://wa.me/2348064069133" class="btn btn-secondary">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">100+</span>
+                        <span class="stat-label">Happy Customers</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Cake Varieties</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">5★</span>
+                        <span class="stat-label">Customer Rating</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://files.catbox.moe/g7hzps.jpg" alt="Beautiful custom cake" class="cake-image">
+                <div class="floating-elements">
+                    <div class="floating-cake">🎂</div>
+                    <div class="floating-cake">🧁</div>
+                    <div class="floating-cake">🍰</div>
+                </div>
+            </div>
         </div>
-        <div class="logo-section">
-    <i class="fas fa-shopping-cart"></i>
-    <h3>ABOUT US</h3>
-    
-    </div>
-   
- <!--section 3 start here -->
- <div class="section-3">
-    <h1>SUPER SALE
-    <div class="section-3-wrapper">
-        <div class="feedback"></div>
-        <div class="feedback-desc">
-            <p><p>8 SINGLE LAYER, VANILLA FLAVOR BUTTERCREAM FROSTING GOES FOR 14,999 NAIRA
-                <br>
-                <i class="far fa-grin-squint-tears"></i>
-                <h4></h4>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Triple O Delight</h2>
+                <p>Customer satisfaction is our number one priority</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Crafting Sweet Memories Since Day One</h3>
+                    <p>At Triple O Delight, we believe every celebration deserves a perfect cake. Our skilled bakers combine traditional techniques with modern creativity to deliver cakes that not only look stunning but taste absolutely divine.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <span>Made with Love</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <span>Fresh Ingredients</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-palette"></i>
+                            <span>Custom Designs</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <span>Timely Delivery</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://files.catbox.moe/ghhk10.jpg" alt="Our bakery" class="rounded-image">
+                </div>
+            </div>
         </div>
+    </section>
 
-        <div class="feedback f-image-2"></div>
-        <div class="feedback-desc">
-            <p>PLATER FOR SMALL CHOPS GOES FOR 26,999
-                CONTENT: 10 SAMOS ,10 SPRING ROLLS 10 PEPPERED CHICKEN
-                <i class="far fa-grin-squint-tears"></i>
-                <h4></h4>
+    <!-- Featured Cakes Section -->
+    <section id="cakes" class="featured-cakes">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Signature Cakes</h2>
+                <p>Handcrafted with premium ingredients and artistic flair</p>
+            </div>
+            <div class="cakes-grid">
+                <div class="cake-card">
+                    <div class="cake-image">
+                        <img src="https://files.catbox.moe/go4lnv.jpg" alt="Vanilla Buttercream Cake">
+                        <div class="cake-overlay">
+                            <a href="https://wa.me/2348064069133" class="order-btn-small">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="cake-info">
+                        <h3>Vanilla Buttercream Delight</h3>
+                        <p>8" single layer vanilla cake with smooth buttercream frosting</p>
+                        <div class="price">₦14,999</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cake-card">
+                    <div class="cake-image">
+                        <img src="https://files.catbox.moe/zccclr.jpeg" alt="Chocolate Fudge Cake">
+                        <div class="cake-overlay">
+                            <a href="https://wa.me/2348064069133" class="order-btn-small">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="cake-info">
+                        <h3>Chocolate Fudge Supreme</h3>
+                        <p>Rich chocolate cake with decadent fudge frosting</p>
+                        <div class="price">₦16,999</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cake-card">
+                    <div class="cake-image">
+                        <img src="https://files.catbox.moe/02f112.jpg" alt="Red Velvet Cake">
+                        <div class="cake-overlay">
+                            <a href="https://wa.me/2348064069133" class="order-btn-small">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="cake-info">
+                        <h3>Red Velvet Classic</h3>
+                        <p>Traditional red velvet with cream cheese frosting</p>
+                        <div class="price">₦18,999</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
- </div>
-  
-   <footer>
-    <div class="footer-body">
-        <div class="logo footer-logo">
-            <h2><a href="#">Xnoverse <br>Gaming</a> </h2>
-             </div>
-             <ul>
-                <h3>Short Links</h3>
-                <li><a href="#">Arcade</a></li>
-                <li><a href="#">War Zone</a></li>
-                <li><a href="#">Naruto</a></li>
-                <li><a href="#">FortNite</a></li>
-                <li><a href="#">Pes</a></li>
-             </ul>
+    </section>
 
-             <ul>
-                <h3>Action Games</h3>
-                <li><a href="#">Amper</a></li>
-                <li><a href="#">Battle Feild</a></li>
-                <li><a href="#">Naruto</a></li>
-                <li><a href="#">The Ghost</a></li>
-                <li><a href="#">Call Of Duty</a></li>
-             </ul>
+    <!-- Small Chops Section -->
+    <section class="small-chops">
+        <div class="container">
+            <div class="chops-content">
+                <div class="chops-text">
+                    <h2>Small Chops Platter</h2>
+                    <p>Perfect for parties and gatherings</p>
+                    <div class="chops-details">
+                        <h4>What's Included:</h4>
+                        <ul>
+                            <li><i class="fas fa-check"></i> 10 Samosas</li>
+                            <li><i class="fas fa-check"></i> 10 Spring Rolls</li>
+                            <li><i class="fas fa-check"></i> 10 Peppered Chicken</li>
+                        </ul>
+                        <div class="chops-price">₦26,999</div>
+                        <a href="https://wa.me/2348064069133" class="btn btn-primary">Order Platter</a>
+                    </div>
+                </div>
+                <div class="chops-image">
+                    <img src="https://files.catbox.moe/6772q1.jpg" alt="Small chops platter">
+                </div>
+            </div>
+        </div>
+    </section>
 
-             <ul>
-                <h3>Get In Touch</h3>
-                <li><a href="#"><i class="fas fa-facebook"></i>Twitter</a></li>
-                <li><a href="#"><i class="fas fa-facebook"></i>Instagram</a></li>
-                <li><a href="#"><i class="fas fa-facebook"></i>FaceBook</a></li>
-                <li><a href="#"><i class="fas fa-facebook"></i>Youtube</a></li>
-                <li><a href="#"><i class="fas fa-facebook"></i>Linkeden</a></li>
-             </ul>
-    </div>
-   </footer>
-   <div class="footer-bottom">
-    <p>Copyright &copy; &starf; &starf; &starf; &starf; &infin; ALL RIGHT RESERVED DESIGNED <span>By XnoverseGaming</span>2024
-    For Further Enquiries Please Call 08119363233</p>
-    
-   </div>
-</body>
-</html>
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Cake Gallery</h2>
+                <p>A showcase of our beautiful creations</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://files.catbox.moe/lyb3go.jpg" alt="Wedding cake">
+                    <div class="gallery-overlay">
+                        <h4>Wedding Cakes</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://files.catbox.moe/5lmg6y.jpg" alt="Birthday cake">
+                    <div class="gallery-overlay">
+                        <h4>Birthday Cakes</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://files.catbox.moe/cumcdf.jpg" alt="Custom cake">
+                    <div class="gallery-overlay">
+                        <h4>Custom Designs</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://files.catbox.moe/a7x9i6.jpg" alt="Cupcakes">
+                    <div class="gallery-overlay">
+                        <h4>Cupcakes</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://files.catbox.moe/4x3tlg.jpg" alt="Pastries">
+                    <div class="gallery-overlay">
+                        <h4>Pastries</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://files.catbox.moe/pce4yv.jpg" alt="Special occasion cake">
+                    <div class="gallery-overlay">
+                        <h4>Special Occasions</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Ready to order your perfect cake?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>07087271795</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>Quick orders & inquiries</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Business Hours</h4>
+                            <p>Mon - Sat: 8AM - 8PM</p>
+                        </div>
+                    </div>
+                </div>
+               
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-birthday-cake"></i>
+                        <span>Triple O Delight</span>
+                    </div>
+                    <p>Creating sweet memories with premium handcrafted cakes and pastries.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/2348064069133"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#cakes">Our Cakes</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Our Specialties</h4>
+                    <ul>
+                        <li><a href="#">Wedding Cakes</a></li>
+                        <li><a href="#">Birthday Cakes</a></li>
+                        <li><a href="#">Custom Designs</a></li>
+                        <li><a href="#">Cupcakes</a></li>
+                        <li><a href="#">Small Chops</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>07087271795</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>tripleodelight@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Mon - Sat: 8AM - 8PM</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025/2026 Triple O Delight Cakes. All rights reserved. | Designed with ❤️ for sweet moments</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
